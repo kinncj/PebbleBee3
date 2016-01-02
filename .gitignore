@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+/.lock-*
+/build/
+/out/
+src/js/app/*.js
+node_modules/
