@@ -11,9 +11,7 @@ npm install
 ```
 
 ```
-node ./node_modules/babel-cli/bin/babel.js app -d src/js/app
-pebble clean
-pebble build
+npm run-script compile
 pebble install --emulator basalt
 pebble logs
 ```
