@@ -7,6 +7,10 @@ Compile
 ====
 
 ```
+echo "{'APP_KEY': 'YOUR ECOBEE DEV KEY'}" > src/js/config.json
+```
+
+```
 npm install
 ```
 

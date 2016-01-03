@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "PebbleBee3",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel app -d src/js/app"
+    "compile": "node ./node_modules/babel-cli/bin/babel.js app -d src/js/app && pebble clean && pebble build"
   },
   "devDependencies": {
     "babel-cli": "6.0.0"
